@@ -1,4 +1,3 @@
-import React from 'react'
 import { allJokes } from './data'
 import { useState } from 'react'
 
@@ -8,7 +7,6 @@ const Joke = () => {
     const randomIndex = Math.floor(Math.random() * allJokes.length)
     const selectedJoke = allJokes[randomIndex]
     setJoke(selectedJoke)
-    console.log(randomIndex)
   }
 
   return (
